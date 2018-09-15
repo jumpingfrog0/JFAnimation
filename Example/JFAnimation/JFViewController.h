@@ -6,7 +6,7 @@
 //  Copyright (c) 2018 jumpingfrog0. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface JFViewController : UIViewController
 
