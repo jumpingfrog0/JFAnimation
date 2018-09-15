@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JFAnimation_Example' do
+  pod 'JFAnimation', :path => '../'
+
+  target 'JFAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
