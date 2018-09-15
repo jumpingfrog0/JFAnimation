@@ -28,13 +28,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Source/Classes/**/*'
+  s.source_files = 'Source/Classes/*.{h,m}', 'Source/Classes/ThirdParty/*.{h,m}'
+  s.public_header_files = 'Source/Classes/*.{h}'
   
   # s.resource_bundles = {
   #   'JFAnimation' => ['Source/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Source/Classes/**/*.h'
   s.frameworks = 'Foundation', 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

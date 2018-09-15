@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21D8A58B9EFC842D8C31A9B4 /* Pods_JFAnimation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E679A95D79DF086250EEC3B9 /* Pods_JFAnimation_Tests.framework */; };
+		550F356C9B87E0E424CB5BCE /* libPods-JFAnimation_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7936E3F511988A069CE10ED9 /* libPods-JFAnimation_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D9AD4FD826A299520BBDE8DB /* Pods_JFAnimation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307398AD9BD74525724BDC7B /* Pods_JFAnimation_Example.framework */; };
+		B2FB963A5E8F157BAFFDF65B /* libPods-JFAnimation_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D814C33BF687CDBF15B5B8FA /* libPods-JFAnimation_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		0E2F536AF083E8A00B8C2082 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		307398AD9BD74525724BDC7B /* Pods_JFAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		395EDAAF12E1D3A74069E461 /* Pods-JFAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFAnimation_Tests/Pods-JFAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JFAnimation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFAnimation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,12 +58,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76FC819A0806757722F6426F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7936E3F511988A069CE10ED9 /* libPods-JFAnimation_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFAnimation_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8773CD5B33A6738D25BC05F9 /* Pods-JFAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFAnimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFAnimation_Example/Pods-JFAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A95F83649ED3FB3090B2E6B4 /* Pods-JFAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFAnimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFAnimation_Example/Pods-JFAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B40FB63049FE0FC5324F5F74 /* JFAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JFAnimation.podspec; path = ../JFAnimation.podspec; sourceTree = "<group>"; };
 		BFAC63F4CB42BC378C6A4F17 /* Pods-JFAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFAnimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFAnimation_Tests/Pods-JFAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E679A95D79DF086250EEC3B9 /* Pods_JFAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D814C33BF687CDBF15B5B8FA /* libPods-JFAnimation_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFAnimation_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D9AD4FD826A299520BBDE8DB /* Pods_JFAnimation_Example.framework in Frameworks */,
+				B2FB963A5E8F157BAFFDF65B /* libPods-JFAnimation_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				21D8A58B9EFC842D8C31A9B4 /* Pods_JFAnimation_Tests.framework in Frameworks */,
+				550F356C9B87E0E424CB5BCE /* libPods-JFAnimation_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				307398AD9BD74525724BDC7B /* Pods_JFAnimation_Example.framework */,
-				E679A95D79DF086250EEC3B9 /* Pods_JFAnimation_Tests.framework */,
+				D814C33BF687CDBF15B5B8FA /* libPods-JFAnimation_Example.a */,
+				7936E3F511988A069CE10ED9 /* libPods-JFAnimation_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,7 +203,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				6243430CFE2E48F273537C72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,24 +289,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6243430CFE2E48F273537C72 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JFAnimation_Example/Pods-JFAnimation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JFAnimation/JFAnimation.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JFAnimation.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFAnimation_Example/Pods-JFAnimation_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		65ACF56BF2FB1A4CC1150BDA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

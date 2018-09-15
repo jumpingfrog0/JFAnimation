@@ -1,4 +1,3 @@
-use_frameworks!
 
 target 'JFAnimation_Example' do
   pod 'JFAnimation', :path => '../'
