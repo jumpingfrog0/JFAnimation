@@ -5,20 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/JFAnimation.svg?style=flat)](https://cocoapods.org/pods/JFAnimation)
 [![Platform](https://img.shields.io/cocoapods/p/JFAnimation.svg?style=flat)](https://cocoapods.org/pods/JFAnimation)
 
-## Example
+Some iOS Animations.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+* Floating
+* Popup
+* Zoom
+* Ripple
+* Radar
 
 ## Requirements
 
-## Installation
-
-JFAnimation is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'JFAnimation'
-```
+* iOS 9.0 or later
 
 ## Author
 

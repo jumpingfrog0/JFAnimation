@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JFAnimation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JFAnimation.'
+  s.summary          = 'A set of iOS Animations.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A set of iOS Animations.
                        DESC
 
   s.homepage         = 'https://github.com/jumpingfrog0/JFAnimation'
@@ -35,6 +35,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Source/Classes/**/*.h'
-  # s.frameworks = 'Foundation', 'UIKit'
+  s.frameworks = 'Foundation', 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
